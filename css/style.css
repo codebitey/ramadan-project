@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    width: 94%;
+    margin: auto;
+}
+
+.nav-top{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-right-links .nav-links{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-right-links .nav-links a{
+    font-weight: 600;
+    color: #000;
+}
+
+.nav-right-links .nav-links a:hover{
+    color: #186858;
+}
+
+.nav-right-links .nav-links .active{
+    color: #186858;
+}
+
+.nav-right-links .nav-social-links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-right-links .nav-social-links i{
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-right-links .nav-social-links i:hover{
+    color: #186858;
+}
+
+ /* ----- Nav Top End ----- */
+
+ .hero-section{
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('../img/blue-mosque-istanbul.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+ }
+
+ .top-times-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    background: #F8B848;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+ }
+
+ .top-times{
+    display: flex;
+    gap: 25px;
+ }
+
+ .top-times-box .top-times .top-azan-time p{
+    font-size: 14px;
+ }
+
+ .hero-content-box{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .hero-content-box .hero-content{
+    text-align: center;
+    height: auto;
+    padding: 50px 30px;
+    color: #fff;
+    width: 60%;
+ }
+
+ .hero-content-box .hero-content h1{
+    margin-bottom: 40px;
+    font-size: 4rem;
+ }
+
+ .hero-content-box .hero-content p{
+    margin-bottom: 50px;
+    line-height: 23px;
+    padding: 0 30px;
+ }
+
+ .hero-content-box .hero-content a{
+    padding: 16px 24px;
+    background: #fff;
+    color: #000;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+ }
