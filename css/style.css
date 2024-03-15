@@ -72,6 +72,7 @@ body{
     background-repeat: no-repeat;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    position: relative;
  }
 
  .top-times-box{
@@ -82,9 +83,24 @@ body{
     background: #F8B848;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    position: sticky;
-    top: 0;
+    position: absolute;
+    width: 100%;
     z-index: 1000;
+ }
+
+ .top-times-box.fixed{
+   position: fixed;
+   top: 0px;
+ }
+
+ .top-times-box.sticky{
+   position: sticky;
+   top: 90px;
+ }
+
+ .top-times-box-fixed.scrolled {
+   background-color: #fff !important;
+   transition: background-color 200ms linear;
  }
 
  .top-times{
@@ -156,4 +172,17 @@ body{
     padding: 0 50px;
     font-size: 2.7rem;
     line-height: 3rem;
+ }
+
+
+
+
+
+
+
+
+ .fade{
+    border: 1px solid #000;
+    position: fixed;
+    top: 0;
  }
