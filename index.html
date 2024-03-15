@@ -43,22 +43,22 @@
     </nav>
 
     <div class="hero-section">
-        <div class="top-times-box">
+        <div class="top-times-box" id="topTimeSection" id="prayer-times" data-section="prayer-times">
             <div class="top-times">
-                <div class="top-azan-time">
-                    <p><b>Fazar </b>04:45 am</p>
+                <div class="top-azan-time times">
+                    <p><b>Fazar </b><span id="fazarTime">04:45 am</span></p>
                 </div>
-                <div class="top-azan-time">
-                    <p><b>Zuhr </b>12:45 pm</p>
+                <div class="top-azan-time times">
+                    <p><b>Zuhr </b><span id="zuharTime">12:45 pm</span></p>
                 </div>
-                <div class="top-azan-time">
-                    <p><b>Asr </b>03:45 pm</p>
+                <div class="top-azan-time times">
+                    <p><b>Asr </b><span id="asrTime">03:45 pm</span></p>
                 </div>
-                <div class="top-azan-time">
-                    <p><b>Maghrib </b>05:45 pm</p>
+                <div class="top-azan-time times">
+                    <p><b>Maghrib </b><span id="maghribTime">05:45 pm</span></p>
                 </div>
-                <div class="top-azan-time">
-                    <p><b>Isha </b>07:45 pm</p>
+                <div class="top-azan-time times">
+                    <p><b>Isha </b><span id="ishaTime">07:45 pm</span></p>
                 </div>
             </div>
         </div>
@@ -80,6 +80,16 @@
             <h1>Our vision is to be a leader in providing Islamic guidance and services that contributes to the Muslim community.</h1>
         </div>
     </div>
+
+
+    <!-- Javascript -->
+
+    <script src="js/script.js"></script>
+    <script src="js/prayer.js"></script>
+
+     <!-- ===== ionicon link ======-->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
 </body>
 </html>

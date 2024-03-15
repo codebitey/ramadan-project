@@ -914,3 +914,7 @@ input:focus{
         border-right: 1px solid var(--gold-crayola);
     }
 }
+
+.main-time-hidden{
+    display: none !important;
+}
